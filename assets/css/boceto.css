@@ -21,8 +21,8 @@
 	grid-column: 1/ span 3;
 	border-style: solid;
 	border-width: 0px 0px 1px 0px;
-	border-color: #5eaa6c;
-
+	border-color: #90c69a;
+	box-shadow: 1px 1px 1px #e9d5d5;
 	display: grid;
 	grid-template-columns: 16em 5fr 19em;
 	grid-template-rows: 1fr;
@@ -48,6 +48,7 @@
 	border-style: solid;
 	border-width: 1px 0px 0px 0px;
 	border-color: gray;
+	box-shadow: 1px 1px 1px #e9d5d5;
 }
 .footer-img1{
 	grid-column: 2/3;
@@ -98,16 +99,16 @@
 	height: 1.5em;
 }
 .header a{
-	color: black;
+	color: #7e2e2e;
 }
 .boton{
-	background: #efad92;
+	background: #e3ac95;
 	color: #CD5C5C;
 	padding: .2em;
 	margin-top: .6em;
 	border-style: solid;
 	border-width: 1px 1px 1px 1px;
-	border-color: #CD5C5C;
+	border-color: #CF8E8E;
 	border-radius: 3px;
 
 }
@@ -686,9 +687,13 @@
 }
 
 #buscarboton{
-	color: black;
+	color: #6d4b4b;
 	font-size: 1.1em;
 	cursor: pointer;
+}
+
+#buscarboton:hover{
+	color: #efad92;
 }
 #buscarinput{
 	color: black;
@@ -718,15 +723,17 @@
 .infouser{
 	display: none;
 	position: absolute;
-	background: #a9dfbf;
-	color: black;
+	background: #b8d7cbeb;
+	color: #4c463b;
 	width: 15em;
 	margin-left: -6em;
 	margin-top: .8em;
 	padding: 1em;
 	border-style: solid;
 	border-width: 1px 1px 1px 1px;
-	border-color:  #45b39d; 
+	border-color: #9ec5b6; 
+	box-shadow: 2px 2px 2px #b2bbb3;
+	border-radius: 20px;
 }
 
 .userimg{
